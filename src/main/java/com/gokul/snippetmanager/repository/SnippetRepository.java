@@ -1,0 +1,18 @@
+package com.gokul.snippetmanager.repository;
+
+import com.gokul.snippetmanager.model.Snippet;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+import java.util.List;
+
+@Repository
+public interface SnippetRepository extends JpaRepository<Snippet, Long> {
+
+    List<Snippet> findByLanguage(String language);
+
+    List<Snippet> findByTagsContaining(String tag);
+
+    List<Snippet> findByTitleContainingIgnoreCase(String keyword);
+
+    List<Snippet> findByPinnedTrue();
+}
