@@ -1,4 +1,5 @@
 # 🗂️ Developer Code Snippet Manager
+![Dashboard](pss.png)
 
 A full-stack application for developers to **store, organize, and retrieve reusable code snippets** through REST APIs.
 
