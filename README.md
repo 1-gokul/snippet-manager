@@ -137,8 +137,5 @@ src/
 
 ---
 
-## 👨‍💻 Author
 
-**Gokul Prasad**  
-Computer Science Graduate — Providence College of Engineering, Chengannur  
 📧 gokulprasad497@gmail.com
